@@ -9,14 +9,17 @@ NOTE: To run this script you must be logged on with an account with privileges t
 The script will generate a log file in the %temp% folder which records the users changed, the old phone number, new number and the result as well as any error messages.
 
 
-.PARAMETER TestWithNoChanges
+## Parameters
+
+### TestWithNoChanges
     By using the parameter no changes will be made to Active Directory but the changes that would be made will be logged in the log file.
 
+## Examples
 
-.EXAMPLE
+### Run and make changes to Active Directory
 
 .\ps_Exchange_PhoneNumberUpdater.ps1
 
-.EXAMPLE
+### Run and test only - do not make any changes to Active Directory
 
 .\ps_Exchange_PhoneNumberUpdater.ps1 -TestWithNoChanges
