@@ -12,7 +12,7 @@ The script will generate a log file in the %temp% folder which records the users
 ## Parameters
 
 ### TestWithNoChanges
-    By using the parameter no changes will be made to Active Directory but the changes that would be made will be logged in the log file.
+By using the parameter no changes will be made to Active Directory but the changes that would be made will be logged in the log file.
 
 ## Examples
 
